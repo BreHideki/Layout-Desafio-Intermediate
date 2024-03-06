@@ -1,0 +1,107 @@
+:root {
+    --color-b: #3F3D56;
+    --color-p: #EE24FF;
+    --color-g: #828282;
+    --color-w: #ECEFF2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+main {
+    width: 31rem;
+    height: 30rem;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+main img {
+    margin-bottom: 1.9rem;
+}
+
+main p {
+    margin-bottom: 1.25rem;
+}
+
+.title {
+    font-size: 32px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-b);
+}
+
+.title strong {
+    color: var(--color-p);
+}
+
+.paragraph {
+    color: var(--color-g);
+    font-family: Open sans, sans serif;
+    font-size: 15px;
+}
+
+.paragraph strong {
+    color: var(--color-b);
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7rem;
+    postion: relative;
+}
+
+.links {
+    width: 24em;
+    height: 8vh;
+    min-height: 8vh; /* Add min-height */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid var(--color-w);
+    position: relative;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--color-b);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Open sans, sans serif;
+}
+
+footer img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    max-height: 6rem;
+}
+
+@media (min-height: 600px) {
+    footer img {
+        max-height: 5rem; /* Adjust the max height as per your requirement */
+    }
+}
+
+@media (min-height: 400px) {
+    footer img {
+        max-height: 3rem; /* Adjust the max height as per your requirement */
+    }
+}
+
+
