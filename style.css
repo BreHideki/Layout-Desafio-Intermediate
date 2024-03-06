@@ -67,7 +67,7 @@ footer {
 .links {
     width: 24em;
     height: 8vh;
-    min-height: 8vh; /* Add min-height */
+    min-height: 8vh; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,13 +94,13 @@ footer img {
 
 @media (min-height: 600px) {
     footer img {
-        max-height: 5rem; /* Adjust the max height as per your requirement */
+        max-height: 5rem; 
     }
 }
 
 @media (min-height: 400px) {
     footer img {
-        max-height: 3rem; /* Adjust the max height as per your requirement */
+        max-height: 3rem; 
     }
 }
 
